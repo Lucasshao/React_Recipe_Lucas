@@ -1,0 +1,18 @@
+@use "src/utils/index.scss" as base;
+
+.recipe__header {
+  @include base.flexCenter;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.recipe__title {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.recipe_btn_group {
+  @include base.flexCenter;
+  justify-content: space-between;
+  gap: 1rem;
+}

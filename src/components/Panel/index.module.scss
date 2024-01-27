@@ -1,0 +1,10 @@
+// @use "src/utils/index.scss" as base;
+.panel {
+  // @include base.flexCenter;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+}
